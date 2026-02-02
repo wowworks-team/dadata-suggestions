@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         uses: php-actions/composer@v6
       - name: Run PHPStan
-        run: vendor/bin/phpstan analyse phpstan.neon.dist
+        run: vendor/bin/phpstan analyse -c phpstan.neon.dist
   run-php-unit-tests:
     runs-on: ubuntu-latest
     steps:
