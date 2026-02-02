@@ -31,7 +31,7 @@ jobs:
           configuration: phpunit.xml
           args: --coverage-text
   run-assemble-php-unit-coverage:
-    needs: [run-php-unit-tests, run-phpcs, run-php-stan]
+    needs: [run-php-unit-tests]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
