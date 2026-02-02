@@ -20,7 +20,7 @@ jobs:
         with:
           configuration: ./phpstan.neon.dist
   run-php-unit-tests:
-    needs: run-phpcs, run-php-stan
+    needs: []run-phpcs, run-php-stan]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
