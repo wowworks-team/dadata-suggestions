@@ -23,7 +23,7 @@
     "ext-curl": "*",
     "phpunit/phpunit": "*",
     "squizlabs/php_codesniffer": "*",
-    "phpstan/phpstan": "^1.8",
+    "phpstan/phpstan": "^0.12.42",
     "psr/log": "~1.0"
   }
 }
