@@ -1,7 +1,9 @@
 <ruleset name="base-coding-style">
     <description>Base component coding style</description>
 
-    <rule ref="PSR12"/>
+    <rule ref="PSR12">
+        <exclude name="PSR12.Properties.ConstantVisibility"/>
+    </rule>
 
     <rule ref="PSR2.Methods.MethodDeclaration.Underscore"/>
 
