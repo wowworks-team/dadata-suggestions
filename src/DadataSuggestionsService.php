@@ -195,5 +195,4 @@ class DadataSuggestionsService
         $result = new Response($response, $type);
         return $result;
     }
-
 }

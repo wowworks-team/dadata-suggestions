@@ -13,5 +13,4 @@ use DadataSuggestions\ResponseData;
  */
 class Email extends ResponseData
 {
-
 }

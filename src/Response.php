@@ -95,5 +95,4 @@ class Response
     {
         $this->suggestions = $suggestions;
     }
-
 }

@@ -44,5 +44,4 @@ use DadataSuggestions\ResponseData;
  */
 class Party extends ResponseData
 {
-
 }

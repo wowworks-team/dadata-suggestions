@@ -18,5 +18,4 @@ use DadataSuggestions\ResponseData;
  */
 class Fio extends ResponseData
 {
-
 }
