@@ -7,6 +7,7 @@ Integration with Dadata suggestions API.
 [![Total Downloads](https://poser.pugx.org/glendemon/dadata-suggestions/downloads)](https://packagist.org/packages/glendemon/dadata-suggestions)
 [![Latest Unstable Version](https://poser.pugx.org/glendemon/dadata-suggestions/v/unstable)](https://packagist.org/packages/glendemon/dadata-suggestions)
 [![License](https://poser.pugx.org/glendemon/dadata-suggestions/license)](https://packagist.org/packages/glendemon/dadata-suggestions)
+![Code Coverage Badge](./badge.svg)
 
 Installation
 -------------
