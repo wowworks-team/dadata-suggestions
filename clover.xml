@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1770049746">
-  <project timestamp="1770049746">
+<coverage generated="1770049981">
+  <project timestamp="1770049981">
     <file name="/app/src/DadataSuggestionsService.php">
       <class name="DadataSuggestions\DadataSuggestionsService" namespace="global">
         <metrics complexity="13" methods="13" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="22" elements="44" coveredelements="30"/>
@@ -55,7 +55,7 @@
       <class name="DadataSuggestions\Data\Address" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
-      <metrics loc="86" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      <metrics loc="85" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <file name="/app/src/Data/Bank.php">
       <class name="DadataSuggestions\Data\Bank" namespace="global">
@@ -118,35 +118,35 @@
       <line num="22" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="2"/>
       <line num="24" type="stmt" count="2"/>
       <line num="25" type="stmt" count="2"/>
-      <metrics loc="28" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+      <metrics loc="29" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
     </file>
     <file name="/app/src/Suggestion.php">
       <class name="DadataSuggestions\Suggestion" namespace="global">
         <metrics complexity="11" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="21" coveredelements="17"/>
       </class>
-      <line num="28" type="method" name="__construct" visibility="public" complexity="5" crap="5" count="2"/>
+      <line num="27" type="method" name="__construct" visibility="public" complexity="5" crap="5" count="2"/>
+      <line num="29" type="stmt" count="2"/>
       <line num="30" type="stmt" count="2"/>
       <line num="31" type="stmt" count="2"/>
-      <line num="32" type="stmt" count="2"/>
+      <line num="33" type="stmt" count="2"/>
       <line num="34" type="stmt" count="2"/>
-      <line num="35" type="stmt" count="2"/>
+      <line num="36" type="stmt" count="2"/>
       <line num="37" type="stmt" count="2"/>
       <line num="38" type="stmt" count="2"/>
-      <line num="39" type="stmt" count="2"/>
-      <line num="47" type="method" name="getValue" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="49" type="stmt" count="0"/>
-      <line num="55" type="method" name="setValue" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="57" type="stmt" count="2"/>
-      <line num="63" type="method" name="getUnrestrictedValue" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="65" type="stmt" count="0"/>
-      <line num="71" type="method" name="setUnrestrictedValue" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="73" type="stmt" count="2"/>
-      <line num="79" type="method" name="getData" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="81" type="stmt" count="2"/>
-      <line num="87" type="method" name="setData" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="89" type="stmt" count="2"/>
-      <metrics loc="92" ncloc="60" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="21" coveredelements="17"/>
+      <line num="46" type="method" name="getValue" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="48" type="stmt" count="0"/>
+      <line num="54" type="method" name="setValue" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="56" type="stmt" count="2"/>
+      <line num="62" type="method" name="getUnrestrictedValue" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="64" type="stmt" count="0"/>
+      <line num="70" type="method" name="setUnrestrictedValue" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="72" type="stmt" count="2"/>
+      <line num="78" type="method" name="getData" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="80" type="stmt" count="2"/>
+      <line num="86" type="method" name="setData" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="88" type="stmt" count="2"/>
+      <metrics loc="91" ncloc="59" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="21" coveredelements="17"/>
     </file>
-    <metrics files="9" loc="626" ncloc="294" classes="4" methods="29" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="50" elements="92" coveredelements="70"/>
+    <metrics files="9" loc="625" ncloc="293" classes="4" methods="29" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="50" elements="92" coveredelements="70"/>
   </project>
 </coverage>
