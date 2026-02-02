@@ -13,12 +13,12 @@ jobs:
   run-php-stan:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: php-actions/composer@v6
-      - name: PHPStan Static Analysis source code
-        uses: php-actions/phpstan@v3
-        with:
-          configuration: ./phpstan.neon.dist
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        uses: php-actions/composer@v6
+      - name: Run PHPStan
+        run: vendor/bin/phpstan analyse
   run-php-unit-tests:
     runs-on: ubuntu-latest
     steps:
