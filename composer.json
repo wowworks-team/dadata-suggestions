@@ -1,13 +1,13 @@
 {
-  "name": "glendemon/dadata-suggestions",
+  "name": "wowworks/dadata-suggestions",
   "description": "Integration with Dadata suggestions API.",
   "keywords": ["dadata", "suggestions", "api"],
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
-      "name": "Victor Demin",
-      "email": "mail@vdemin.com"
+      "name": "Wowworks",
+      "email": "it@wowworks.ru"
     }
   ],
   "autoload": {
@@ -22,6 +22,7 @@
   "require-dev": {
     "ext-curl": "*",
     "phpunit/phpunit": "*",
+    "squizlabs/php_codesniffer": "*",
     "psr/log": "~1.0"
   }
 }
