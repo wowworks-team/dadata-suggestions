@@ -1,11 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1770050288">
-  <project timestamp="1770050288">
+<coverage generated="1770050434">
+  <project timestamp="1770050434">
     <file name="/app/src/DadataSuggestionsService.php">
       <class name="DadataSuggestions\DadataSuggestionsService" namespace="global">
-        <metrics complexity="13" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        <metrics complexity="13" methods="13" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="22" elements="44" coveredelements="30"/>
       </class>
-      <metrics loc="199" ncloc="181" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      <line num="33" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="35" type="stmt" count="2"/>
+      <line num="36" type="stmt" count="2"/>
+      <line num="37" type="stmt" count="2"/>
+      <line num="38" type="stmt" count="2"/>
+      <line num="52" type="method" name="suggestFio" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="54" type="stmt" count="0"/>
+      <line num="67" type="method" name="suggestAddress" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="69" type="stmt" count="2"/>
+      <line num="84" type="method" name="suggestParty" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="86" type="stmt" count="0"/>
+      <line num="87" type="stmt" count="0"/>
+      <line num="88" type="stmt" count="0"/>
+      <line num="89" type="stmt" count="0"/>
+      <line num="90" type="stmt" count="0"/>
+      <line num="104" type="method" name="suggestBank" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="106" type="stmt" count="0"/>
+      <line num="118" type="method" name="suggestEmail" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="120" type="stmt" count="0"/>
+      <line num="128" type="method" name="getUrl" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="130" type="stmt" count="2"/>
+      <line num="136" type="method" name="setUrl" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="138" type="stmt" count="0"/>
+      <line num="144" type="method" name="getClient" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="146" type="stmt" count="2"/>
+      <line num="152" type="method" name="setClient" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="154" type="stmt" count="2"/>
+      <line num="160" type="method" name="getToken" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="162" type="stmt" count="2"/>
+      <line num="168" type="method" name="setToken" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="170" type="stmt" count="2"/>
+      <line num="182" type="method" name="suggest" visibility="protected" complexity="1" crap="1" count="2"/>
+      <line num="184" type="stmt" count="2"/>
+      <line num="185" type="stmt" count="2"/>
+      <line num="186" type="stmt" count="2"/>
+      <line num="187" type="stmt" count="2"/>
+      <line num="188" type="stmt" count="2"/>
+      <line num="189" type="stmt" count="2"/>
+      <line num="190" type="stmt" count="2"/>
+      <line num="191" type="stmt" count="2"/>
+      <line num="192" type="stmt" count="2"/>
+      <line num="194" type="stmt" count="2"/>
+      <line num="195" type="stmt" count="2"/>
+      <line num="196" type="stmt" count="2"/>
+      <metrics loc="199" ncloc="104" classes="1" methods="13" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="22" elements="44" coveredelements="30"/>
     </file>
     <file name="/app/src/Data/Address.php">
       <class name="DadataSuggestions\Data\Address" namespace="global">
@@ -103,6 +147,6 @@
       <line num="88" type="stmt" count="2"/>
       <metrics loc="91" ncloc="59" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="21" coveredelements="17"/>
     </file>
-    <metrics files="9" loc="625" ncloc="370" classes="3" methods="16" coveredmethods="12" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="28" elements="48" coveredelements="40"/>
+    <metrics files="9" loc="625" ncloc="293" classes="4" methods="29" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="50" elements="92" coveredelements="70"/>
   </project>
 </coverage>
