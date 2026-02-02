@@ -40,7 +40,7 @@ class Response
         $this->setStatus($this->getRaw()->getStatusCode());
         $contents = $this->getRaw()->getBody()->getContents();
         $contents = \GuzzleHttp\json_decode($contents, true);
-        if  (array_key_exists('suggestions', $contents) && is_array($contents['suggestions'])) {
+        if (array_key_exists('suggestions', $contents) && is_array($contents['suggestions'])) {
             foreach ($contents['suggestions'] as $suggestion) {
                 $suggestion = new Suggestion($type, $suggestion);
                 $this->suggestions[] = $suggestion;
