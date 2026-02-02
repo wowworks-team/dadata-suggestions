@@ -10,3 +10,13 @@ jobs:
       - uses: php-actions/composer@v6
       - name: PHPCS analyze
         run: ./vendor/bin/phpcs -p -s --standard=phpcs.xml src tests
+  run-php-stan:
+    needs: run-phpcs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: php-actions/composer@v6
+      - name: PHPStan Static Analysis source code
+        uses: php-actions/phpstan@v3
+        with:
+          configuration: ./phpstan.neon.dist
