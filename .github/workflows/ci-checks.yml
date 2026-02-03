@@ -39,6 +39,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.2'
+          coverage: xdebug
       - name: Install dependencies
         uses: php-actions/composer@v6
       - name: Execute tests
