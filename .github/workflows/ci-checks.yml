@@ -47,7 +47,7 @@ jobs:
       - name: Install dependencies
         uses: php-actions/composer@v6
       - name: Execute tests
-        run: vendor/bin/phpunit -c phpunit.xml --coverage-text
+        run: vendor/bin/phpunit -c phpunit.xml --coverage-text --colors=always --verbose --testdox
         env:
           XDEBUG_MODE: coverage
       - name: Generate test coverage badge
