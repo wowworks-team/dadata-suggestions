@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1770102574">
-  <project timestamp="1770102574">
+<coverage generated="1770103350">
+  <project timestamp="1770103350">
     <package name="DadataSuggestions">
       <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/DadataSuggestionsService.php">
         <class name="DadataSuggestions\DadataSuggestionsService" namespace="DadataSuggestions">
@@ -96,7 +96,7 @@
       </file>
       <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/Suggestion.php">
         <class name="DadataSuggestions\Suggestion" namespace="DadataSuggestions">
-          <metrics complexity="11" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="16" elements="25" coveredelements="21"/>
+          <metrics complexity="11" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="25" coveredelements="25"/>
         </class>
         <line num="27" type="method" name="__construct" visibility="public" complexity="5" crap="5" count="2"/>
         <line num="29" type="stmt" count="2"/>
@@ -108,13 +108,13 @@
         <line num="37" type="stmt" count="2"/>
         <line num="38" type="stmt" count="2"/>
         <line num="41" type="stmt" count="2"/>
-        <line num="46" type="method" name="getValue" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="48" type="stmt" count="0"/>
+        <line num="46" type="method" name="getValue" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="48" type="stmt" count="1"/>
         <line num="54" type="method" name="setValue" visibility="public" complexity="1" crap="1" count="2"/>
         <line num="56" type="stmt" count="2"/>
         <line num="57" type="stmt" count="2"/>
-        <line num="62" type="method" name="getUnrestrictedValue" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="64" type="stmt" count="0"/>
+        <line num="62" type="method" name="getUnrestrictedValue" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="64" type="stmt" count="1"/>
         <line num="70" type="method" name="setUnrestrictedValue" visibility="public" complexity="1" crap="1" count="2"/>
         <line num="72" type="stmt" count="2"/>
         <line num="73" type="stmt" count="2"/>
@@ -123,7 +123,7 @@
         <line num="86" type="method" name="setData" visibility="public" complexity="1" crap="1" count="2"/>
         <line num="88" type="stmt" count="2"/>
         <line num="89" type="stmt" count="2"/>
-        <metrics loc="90" ncloc="68" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="16" elements="25" coveredelements="21"/>
+        <metrics loc="90" ncloc="68" classes="1" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="25" coveredelements="25"/>
       </file>
     </package>
     <package name="DadataSuggestions\Data">
@@ -158,6 +158,6 @@
         <metrics loc="47" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
     </package>
-    <metrics files="9" loc="616" ncloc="334" classes="4" methods="29" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="56" elements="99" coveredelements="76"/>
+    <metrics files="9" loc="616" ncloc="334" classes="4" methods="29" coveredmethods="22" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="58" elements="99" coveredelements="80"/>
   </project>
 </coverage>
