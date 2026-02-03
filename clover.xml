@@ -1,152 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1770100235">
-  <project timestamp="1770100235">
-    <file name="/app/src/DadataSuggestionsService.php">
-      <class name="DadataSuggestions\DadataSuggestionsService" namespace="global">
-        <metrics complexity="13" methods="13" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="22" elements="44" coveredelements="30"/>
-      </class>
-      <line num="33" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="35" type="stmt" count="2"/>
-      <line num="36" type="stmt" count="2"/>
-      <line num="37" type="stmt" count="2"/>
-      <line num="38" type="stmt" count="2"/>
-      <line num="52" type="method" name="suggestFio" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="54" type="stmt" count="0"/>
-      <line num="67" type="method" name="suggestAddress" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="69" type="stmt" count="2"/>
-      <line num="84" type="method" name="suggestParty" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="86" type="stmt" count="0"/>
-      <line num="87" type="stmt" count="0"/>
-      <line num="88" type="stmt" count="0"/>
-      <line num="89" type="stmt" count="0"/>
-      <line num="90" type="stmt" count="0"/>
-      <line num="104" type="method" name="suggestBank" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="106" type="stmt" count="0"/>
-      <line num="118" type="method" name="suggestEmail" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="120" type="stmt" count="0"/>
-      <line num="128" type="method" name="getUrl" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="130" type="stmt" count="2"/>
-      <line num="136" type="method" name="setUrl" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="138" type="stmt" count="0"/>
-      <line num="144" type="method" name="getClient" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="146" type="stmt" count="2"/>
-      <line num="152" type="method" name="setClient" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="154" type="stmt" count="2"/>
-      <line num="160" type="method" name="getToken" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="162" type="stmt" count="2"/>
-      <line num="168" type="method" name="setToken" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="170" type="stmt" count="2"/>
-      <line num="182" type="method" name="suggest" visibility="protected" complexity="1" crap="1" count="2"/>
-      <line num="184" type="stmt" count="2"/>
-      <line num="185" type="stmt" count="2"/>
-      <line num="186" type="stmt" count="2"/>
-      <line num="187" type="stmt" count="2"/>
-      <line num="188" type="stmt" count="2"/>
-      <line num="189" type="stmt" count="2"/>
-      <line num="190" type="stmt" count="2"/>
-      <line num="191" type="stmt" count="2"/>
-      <line num="192" type="stmt" count="2"/>
-      <line num="194" type="stmt" count="2"/>
-      <line num="195" type="stmt" count="2"/>
-      <line num="196" type="stmt" count="2"/>
-      <metrics loc="199" ncloc="104" classes="1" methods="13" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="22" elements="44" coveredelements="30"/>
-    </file>
-    <file name="/app/src/Data/Address.php">
-      <class name="DadataSuggestions\Data\Address" namespace="global">
-        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-      </class>
-      <metrics loc="85" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-    </file>
-    <file name="/app/src/Data/Bank.php">
-      <class name="DadataSuggestions\Data\Bank" namespace="global">
-        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-      </class>
-      <metrics loc="35" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-    </file>
-    <file name="/app/src/Data/Email.php">
-      <class name="DadataSuggestions\Data\Email" namespace="global">
-        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-      </class>
-      <metrics loc="17" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-    </file>
-    <file name="/app/src/Data/Fio.php">
-      <class name="DadataSuggestions\Data\Fio" namespace="global">
-        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-      </class>
-      <metrics loc="22" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-    </file>
-    <file name="/app/src/Data/Party.php">
-      <class name="DadataSuggestions\Data\Party" namespace="global">
-        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-      </class>
-      <metrics loc="48" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-    </file>
-    <file name="/app/src/Response.php">
-      <class name="DadataSuggestions\Response" namespace="global">
-        <metrics complexity="10" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="21" coveredelements="17"/>
-      </class>
-      <line num="37" type="method" name="__construct" visibility="public" complexity="4" crap="4" count="2"/>
-      <line num="39" type="stmt" count="2"/>
-      <line num="40" type="stmt" count="2"/>
-      <line num="41" type="stmt" count="2"/>
-      <line num="42" type="stmt" count="2"/>
-      <line num="43" type="stmt" count="2"/>
-      <line num="44" type="stmt" count="2"/>
-      <line num="45" type="stmt" count="2"/>
-      <line num="46" type="stmt" count="2"/>
-      <line num="54" type="method" name="getStatus" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="56" type="stmt" count="0"/>
-      <line num="62" type="method" name="setStatus" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="64" type="stmt" count="2"/>
-      <line num="70" type="method" name="getRaw" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="72" type="stmt" count="2"/>
-      <line num="78" type="method" name="setRaw" visibility="protected" complexity="1" crap="1" count="2"/>
-      <line num="80" type="stmt" count="2"/>
-      <line num="86" type="method" name="getSuggestions" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="88" type="stmt" count="2"/>
-      <line num="94" type="method" name="setSuggestions" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="96" type="stmt" count="0"/>
-      <metrics loc="99" ncloc="60" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="21" coveredelements="17"/>
-    </file>
-    <file name="/app/src/ResponseData.php">
-      <class name="DadataSuggestions\ResponseData" namespace="global">
-        <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
-      </class>
-      <line num="12" type="method" name="getInstance" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="14" type="stmt" count="2"/>
-      <line num="15" type="stmt" count="2"/>
-      <line num="22" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="2"/>
-      <line num="24" type="stmt" count="2"/>
-      <line num="25" type="stmt" count="2"/>
-      <metrics loc="29" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
-    </file>
-    <file name="/app/src/Suggestion.php">
-      <class name="DadataSuggestions\Suggestion" namespace="global">
-        <metrics complexity="11" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="21" coveredelements="17"/>
-      </class>
-      <line num="27" type="method" name="__construct" visibility="public" complexity="5" crap="5" count="2"/>
-      <line num="29" type="stmt" count="2"/>
-      <line num="30" type="stmt" count="2"/>
-      <line num="31" type="stmt" count="2"/>
-      <line num="33" type="stmt" count="2"/>
-      <line num="34" type="stmt" count="2"/>
-      <line num="36" type="stmt" count="2"/>
-      <line num="37" type="stmt" count="2"/>
-      <line num="38" type="stmt" count="2"/>
-      <line num="46" type="method" name="getValue" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="48" type="stmt" count="0"/>
-      <line num="54" type="method" name="setValue" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="56" type="stmt" count="2"/>
-      <line num="62" type="method" name="getUnrestrictedValue" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="64" type="stmt" count="0"/>
-      <line num="70" type="method" name="setUnrestrictedValue" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="72" type="stmt" count="2"/>
-      <line num="78" type="method" name="getData" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="80" type="stmt" count="2"/>
-      <line num="86" type="method" name="setData" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="88" type="stmt" count="2"/>
-      <metrics loc="91" ncloc="59" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="21" coveredelements="17"/>
-    </file>
-    <metrics files="9" loc="625" ncloc="293" classes="4" methods="29" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="50" elements="92" coveredelements="70"/>
+<coverage generated="1770101334">
+  <project timestamp="1770101334">
+    <package name="DadataSuggestions">
+      <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/DadataSuggestionsService.php">
+        <class name="DadataSuggestions\DadataSuggestionsService" namespace="DadataSuggestions">
+          <metrics complexity="13" methods="13" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="20" elements="42" coveredelements="28"/>
+        </class>
+        <line num="33" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="35" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="52" type="method" name="suggestFio" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="67" type="method" name="suggestAddress" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="69" type="stmt" count="2"/>
+        <line num="84" type="method" name="suggestParty" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="104" type="method" name="suggestBank" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="118" type="method" name="suggestEmail" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="120" type="stmt" count="0"/>
+        <line num="128" type="method" name="getUrl" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="130" type="stmt" count="2"/>
+        <line num="136" type="method" name="setUrl" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="138" type="stmt" count="0"/>
+        <line num="139" type="stmt" count="0"/>
+        <line num="144" type="method" name="getClient" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="146" type="stmt" count="2"/>
+        <line num="152" type="method" name="setClient" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="154" type="stmt" count="2"/>
+        <line num="155" type="stmt" count="2"/>
+        <line num="160" type="method" name="getToken" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="162" type="stmt" count="2"/>
+        <line num="168" type="method" name="setToken" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="170" type="stmt" count="2"/>
+        <line num="171" type="stmt" count="2"/>
+        <line num="182" type="method" name="suggest" visibility="protected" complexity="1" crap="1" count="2"/>
+        <line num="184" type="stmt" count="2"/>
+        <line num="185" type="stmt" count="2"/>
+        <line num="187" type="stmt" count="2"/>
+        <line num="189" type="stmt" count="2"/>
+        <line num="190" type="stmt" count="2"/>
+        <line num="194" type="stmt" count="2"/>
+        <line num="195" type="stmt" count="2"/>
+        <line num="196" type="stmt" count="2"/>
+        <metrics loc="198" ncloc="119" classes="1" methods="13" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="20" elements="42" coveredelements="28"/>
+      </file>
+      <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/Response.php">
+        <class name="DadataSuggestions\Response" namespace="DadataSuggestions">
+          <metrics complexity="10" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="15" elements="25" coveredelements="20"/>
+        </class>
+        <line num="37" type="method" name="__construct" visibility="public" complexity="4" crap="4" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="43" type="stmt" count="2"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="45" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="54" type="method" name="getStatus" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="62" type="method" name="setStatus" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="64" type="stmt" count="2"/>
+        <line num="65" type="stmt" count="2"/>
+        <line num="70" type="method" name="getRaw" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="72" type="stmt" count="2"/>
+        <line num="78" type="method" name="setRaw" visibility="protected" complexity="1" crap="1" count="2"/>
+        <line num="80" type="stmt" count="2"/>
+        <line num="81" type="stmt" count="2"/>
+        <line num="86" type="method" name="getSuggestions" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="88" type="stmt" count="2"/>
+        <line num="94" type="method" name="setSuggestions" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <metrics loc="98" ncloc="76" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="15" elements="25" coveredelements="20"/>
+      </file>
+      <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/ResponseData.php">
+        <class name="DadataSuggestions\ResponseData" namespace="DadataSuggestions">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+        </class>
+        <line num="12" type="method" name="getInstance" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="14" type="stmt" count="2"/>
+        <line num="15" type="stmt" count="2"/>
+        <line num="22" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="27" type="stmt" count="2"/>
+        <metrics loc="28" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+      </file>
+      <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/Suggestion.php">
+        <class name="DadataSuggestions\Suggestion" namespace="DadataSuggestions">
+          <metrics complexity="11" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="16" elements="25" coveredelements="21"/>
+        </class>
+        <line num="27" type="method" name="__construct" visibility="public" complexity="5" crap="5" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="46" type="method" name="getValue" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="54" type="method" name="setValue" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="62" type="method" name="getUnrestrictedValue" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="70" type="method" name="setUnrestrictedValue" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="72" type="stmt" count="2"/>
+        <line num="73" type="stmt" count="2"/>
+        <line num="78" type="method" name="getData" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="80" type="stmt" count="2"/>
+        <line num="86" type="method" name="setData" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="88" type="stmt" count="2"/>
+        <line num="89" type="stmt" count="2"/>
+        <metrics loc="90" ncloc="68" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="16" elements="25" coveredelements="21"/>
+      </file>
+    </package>
+    <package name="DadataSuggestions\Data">
+      <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/Data/Address.php">
+        <class name="DadataSuggestions\Data\Address" namespace="DadataSuggestions\Data" fullPackage="DadataSuggestions" package="DadataSuggestions">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="84" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/Data/Bank.php">
+        <class name="DadataSuggestions\Data\Bank" namespace="DadataSuggestions\Data" fullPackage="DadataSuggestions" package="DadataSuggestions">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="34" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/Data/Email.php">
+        <class name="DadataSuggestions\Data\Email" namespace="DadataSuggestions\Data" fullPackage="DadataSuggestions" package="DadataSuggestions">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="16" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/Data/Fio.php">
+        <class name="DadataSuggestions\Data\Fio" namespace="DadataSuggestions\Data" fullPackage="DadataSuggestions" package="DadataSuggestions">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="21" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/Data/Party.php">
+        <class name="DadataSuggestions\Data\Party" namespace="DadataSuggestions\Data" fullPackage="DadataSuggestions" package="DadataSuggestions">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="47" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="9" loc="616" ncloc="334" classes="4" methods="29" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="56" elements="99" coveredelements="76"/>
   </project>
 </coverage>
