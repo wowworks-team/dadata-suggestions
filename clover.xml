@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1770050913">
-  <project timestamp="1770050913">
+<coverage generated="1770099285">
+  <project timestamp="1770099285">
     <file name="/app/src/DadataSuggestionsService.php">
       <class name="DadataSuggestions\DadataSuggestionsService" namespace="global">
         <metrics complexity="13" methods="13" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="22" elements="44" coveredelements="30"/>
