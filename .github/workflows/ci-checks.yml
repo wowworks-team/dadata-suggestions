@@ -37,16 +37,12 @@ jobs:
     if: always()
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: php-actions/composer@v6
-      - name: Run PHPUnit Tests
-        uses: php-actions/phpunit@v3
-        with:
-          version: 9.5.28
-          php_extensions: xdebug
-          bootstrap: vendor/autoload.php
-          configuration: phpunit.xml
-          args: --coverage-text
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        uses: php-actions/composer@v6
+      - name: Execute tests
+        run: vendor/bin/phpunit -c phpunit.xml --coverage-text
         env:
           XDEBUG_MODE: coverage
       - name: Generate test coverage badge
