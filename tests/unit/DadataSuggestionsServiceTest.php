@@ -18,9 +18,13 @@ class DadataSuggestionsServiceTest extends TestCase
         $this->assertNotEmpty($response->getSuggestions());
         $this->assertIsArray($response->getSuggestions());
         foreach ($response->getSuggestions() as $suggestion) {
+            $this->assertNotEmpty($suggestion->getValue());
+            $this->assertNotEmpty($suggestion->getUnrestrictedValue());
             /** @var Address $data */
             $data = $suggestion->getData();
             $this->assertInstanceOf(Address::class, $data);
+            $this->assertNotEmpty($data->country);
+            $this->assertNotEmpty($data->city);
         }
     }
 
