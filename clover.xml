@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1770099674">
-  <project timestamp="1770099674">
+<coverage generated="1770099785">
+  <project timestamp="1770099785">
     <file name="/app/src/DadataSuggestionsService.php">
       <class name="DadataSuggestions\DadataSuggestionsService" namespace="global">
         <metrics complexity="13" methods="13" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="22" elements="44" coveredelements="30"/>
@@ -49,7 +49,7 @@
       <line num="194" type="stmt" count="2"/>
       <line num="195" type="stmt" count="2"/>
       <line num="196" type="stmt" count="2"/>
-      <metrics loc="198" ncloc="103" classes="1" methods="13" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="22" elements="44" coveredelements="30"/>
+      <metrics loc="199" ncloc="104" classes="1" methods="13" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="22" elements="44" coveredelements="30"/>
     </file>
     <file name="/app/src/Data/Address.php">
       <class name="DadataSuggestions\Data\Address" namespace="global">
@@ -147,6 +147,6 @@
       <line num="88" type="stmt" count="2"/>
       <metrics loc="91" ncloc="59" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="21" coveredelements="17"/>
     </file>
-    <metrics files="9" loc="624" ncloc="292" classes="4" methods="29" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="50" elements="92" coveredelements="70"/>
+    <metrics files="9" loc="625" ncloc="293" classes="4" methods="29" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="50" elements="92" coveredelements="70"/>
   </project>
 </coverage>
