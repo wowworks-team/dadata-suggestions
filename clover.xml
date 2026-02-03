@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1770101444">
-  <project timestamp="1770101444">
+<coverage generated="1770101624">
+  <project timestamp="1770101624">
     <package name="DadataSuggestions">
       <file name="/home/runner/work/dadata-suggestions/dadata-suggestions/src/DadataSuggestionsService.php">
         <class name="DadataSuggestions\DadataSuggestionsService" namespace="DadataSuggestions">
