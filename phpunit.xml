@@ -7,14 +7,16 @@
          beStrictAboutOutputDuringTests="true"
          beStrictAboutTodoAnnotatedTests="true"
          verbose="true">
-    <coverage cacheDirectory=".phpunit.cache/code-coverage" processUncoveredFiles="true">
-        <include>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">./src</directory>
-        </include>
-        <report>
-            <clover outputFile="clover.xml" />
-        </report>
-    </coverage>
+        </whitelist>
+    </filter>
+
+    <logging>
+        <log type="coverage-clover" target="clover.xml"/>
+    </logging>
 
     <testsuites>
         <testsuite name="default">
