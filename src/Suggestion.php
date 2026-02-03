@@ -2,7 +2,6 @@
 
 namespace DadataSuggestions;
 
-
 class Suggestion
 {
     /**
@@ -88,5 +87,4 @@ class Suggestion
     {
         $this->data = $data;
     }
-
 }

@@ -81,5 +81,4 @@ use DadataSuggestions\ResponseData;
  */
 class Address extends ResponseData
 {
-
 }

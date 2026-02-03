@@ -31,5 +31,4 @@ use DadataSuggestions\ResponseData;
  */
 class Bank extends ResponseData
 {
-
 }
